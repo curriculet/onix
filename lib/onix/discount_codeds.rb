@@ -2,13 +2,14 @@
 
 module ONIX
   module DiscountCodeds
-    CODE_TYPES = {:bic => 1, :proprietary => 2, :boeksoort => 3, :german => 4}
+    #CODE_TYPES = {:bic => 1, :proprietary => 2, :boeksoort => 3, :german => 4}
+    CODE_TYPES = {:bic => 1, :proprietary => 2, :boeksoort => 3, :german => 4, :commission => 5, :bic_commission => 6 }
     DEFAULT_ATTRIBUTE = :discount_code_type
-    
+
     def initialize_discount_codeds(options = {})
       self.discount_codeds = options[:discount_codeds]
     end
-    
+
     def discount_codeds
       @discount_codeds ||= []
     end
@@ -16,11 +17,11 @@ module ONIX
     # find the DiscountCoded matching a particular type
     def find_discount_coded(options = {})
       raise NoMethodError, "Must call initialize_discount_codeds first" unless defined?(@discount_codeds)
-      
+
       # test find parameters
       attribute, value = set_type_options(options).first
       raise ArgumentError, "Find method passed unknown attribute '#{attribute}'" unless ONIX::DiscountCoded.new.attributes.include?(attribute.to_s)
-      
+
       @discount_codeds.find { |obj| obj.send(attribute) == value }
     end
 
@@ -37,7 +38,7 @@ module ONIX
 
       obj.discount_code = value
     end
-    
+
     def discount_codeds=(values)
       values = [values] if values.nil? || values.is_a?(ONIX::DiscountCoded)
       if values.is_a?(Array)
