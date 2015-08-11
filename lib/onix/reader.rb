@@ -1,6 +1,7 @@
 # coding: utf-8
 
 require 'stringio'
+require 'open-uri'
 
 module ONIX
 
@@ -85,7 +86,10 @@ module ONIX
       end
       @product_klass = opts[:product_class] || args.pop || ::ONIX::Product
 
-      if input.kind_of?(String)
+      if input.kind_of?(String) and input.starts_with? "http"
+        web_contents = open(input)
+        @reader = Nokogiri::XML::Reader(web_contents, nil, opts[:encoding]) { |cfg| cfg.dtdload.noent }
+      elsif input.kind_of?(String)
         @file   = File.open(input, "r")
         @reader = Nokogiri::XML::Reader(@file, nil, opts[:encoding]) { |cfg| cfg.dtdload.noent }
       elsif input.kind_of?(IO)
