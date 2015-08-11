@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/02/reference/onix-international.dtd">
+<!DOCTYPE ONIXMessage SYSTEM "http://curriculet.github.io/metamax/onixdtd/2.1/02/reference/onix-international.dtd">
 <ONIXMessage>
 	<Header>
 		<FromCompany>Peribo Pty Ltd</FromCompany>
@@ -9293,7 +9293,7 @@
 		</Imprint>
 		<OtherText>
 			<TextTypeCode>07</TextTypeCode>
-			<Text>This Pegasus flexi original explores images of the women in Rubens' life as depicted by one of the world's most passionate painters. More than thirty colour reproductions of Rubens' portraits are united by the theme of women: the faces and bodies of his wives figure prominently in each. 
+			<Text>This Pegasus flexi original explores images of the women in Rubens' life as depicted by one of the world's most passionate painters. More than thirty colour reproductions of Rubens' portraits are united by the theme of women: the faces and bodies of his wives figure prominently in each.
 From paintings of his first and second wives Isabella and Helene, to scenes depicting mythological or religious events, to images of daily life in seventeenth-century Antwerp, the full breadth of Rubens' prolific oeuvre is represented in this collection. Informative essays reveal what Rubens' portrayals of women tell us about the private life of this influential master.</Text>
 		</OtherText>
 		<Publisher>

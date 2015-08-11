@@ -8,7 +8,7 @@
 			<xsl:otherwise>reference</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
-	<xsl:variable name="dtd-url">http://www.editeur.org/onix/<xsl:value-of select="$release"/>/<xsl:value-of select="$target"/>/onix-international.dtd</xsl:variable>
+	<xsl:variable name="dtd-url">http://curriculet.github.io/metamax/onixdtd/<xsl:value-of select="$release"/>/<xsl:value-of select="$target"/>/onix-international.dtd</xsl:variable>
 	<xsl:output method="xml"/>
 	<xsl:template match="/">
 		<xsl:result-document href="{$result-document}" method="xml" doctype-system="{$dtd-url}">

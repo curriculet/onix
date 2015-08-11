@@ -26,7 +26,7 @@ module ONIX
   #
   class Writer
 
-    DOCTYPE = "http://www.editeur.org/onix/2.1/03/reference/onix-international.dtd"
+    DOCTYPE = "http://curriculet.github.io/metamax/onixdtd/2.1/03/reference/onix-international.dtd"
 
     # Default constructor.
     def initialize(output, header)
