@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
-<!DOCTYPE ONIXmessage SYSTEM "http://www.editeur.org/onix/2.1/short/onix-international.dtd">
+<!DOCTYPE ONIXmessage SYSTEM "http://curriculet.github.io/metamax/onixdtd/2.1/short/onix-international.dtd">
 <ONIXmessage release="2.1">
 <header>
 <m173>2027089</m173>
@@ -38,7 +38,7 @@
 <b037>Ogden, Greg </b037>
 <b039>Greg</b039>
 <b040>Ogden</b040>
-<b044>Greg Ogden (D.Min., Fuller Theological Seminary) is executive pastor of discipleship at Christ Church of Oak Brook in Oak Brook, Illinois. Previously he was academic director of the doctor of ministry program and associate professor of lay equipping and discipleship at Fuller Theological Seminary in Pasadena, California. 
+<b044>Greg Ogden (D.Min., Fuller Theological Seminary) is executive pastor of discipleship at Christ Church of Oak Brook in Oak Brook, Illinois. Previously he was academic director of the doctor of ministry program and associate professor of lay equipping and discipleship at Fuller Theological Seminary in Pasadena, California.
 
 A pastor for 23 years with the Presbyterian Church, USA, he also served for nine years as senior pastor of Saratoga Federated Church in Saratoga, California. While there, he developed a discipleship program used by over 15,000 people and resulting in his book, <em>Discipleship Essentials.</em> Ogden has also written <em>The New Reformation: Returning the Ministry to the People of God</em> (Zondervan, rereleased in 2003 as <em>Unfinished Business</em>).</b044>
 <website>

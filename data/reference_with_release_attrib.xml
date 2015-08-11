@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<!DOCTYPE ONIXMessage SYSTEM "http://curriculet.github.io/metamax/onixdtd/2.1/reference/onix-international.dtd">
 <ONIXMessage release="2.1">
   <Header>
     <FromCompany>TitlePage</FromCompany>

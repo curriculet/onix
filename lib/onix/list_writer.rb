@@ -2,7 +2,7 @@
 
 module ONIX
   module ListWriter
-    
+
     def list_writer(name, options = {})
       options.symbolize_keys!
       unless options.is_a?(Hash) && options[:list].is_a?(Integer)
@@ -36,6 +36,6 @@ module ONIX
         self.instance_variable_set("@#{name}", values)
       end
     end
-    
+
   end
 end

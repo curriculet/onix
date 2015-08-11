@@ -4,7 +4,7 @@
 	<xsl:when test="/ONIXMessage">short</xsl:when>
 	<xsl:otherwise>reference</xsl:otherwise>
 </xsl:choose></xsl:variable>
-<xsl:output method="xml" doctype-system="http://www.editeur.org/onix/2.1/reference/onix-international.dtd"/>
+<xsl:output method="xml" doctype-system="http://curriculet.github.io/metamax/onixdtd/2.1/reference/onix-international.dtd"/>
 <xsl:template match="*">
 	<xsl:variable name="target-name">
 		<xsl:choose>
